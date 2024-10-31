@@ -8,7 +8,7 @@ main(List<String> args) async {
 
   print(mongoUrl);
 
-  final db = await Db.create(mongoUrl);
+  final db = await Db.create('$mongoUrl/test');
   await db.open();
 
   final app = unpub.App(
