@@ -1,0 +1,8 @@
+name: unpub_server
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  unpub: ^2.1.0
+  mongo_dart: ^0.7.4+1
