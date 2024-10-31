@@ -6,6 +6,8 @@ import 'package:unpub/unpub.dart' as unpub;
 main(List<String> args) async {
   final mongoUrl = Platform.environment['MONGO_URL']!;
 
+  print(mongoUrl);
+
   final db = Db(mongoUrl);
   await db.open();
 
